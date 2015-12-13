@@ -84,7 +84,6 @@ public class MainActivity extends Activity
             else {
                 resultDisplayStr = "Scan was canceled.";
             }
-            // do something with resultDisplayStr, maybe display it in a textView
             // resultTextView.setText(resultStr);
             Toast.makeText(this, resultDisplayStr, Toast.LENGTH_LONG).show();
         }
